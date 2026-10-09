@@ -1,6 +1,8 @@
 import streamlit as st
 import base64
-with open("Streamlit background4.png","rb") as image_file:
+from pathlib import Path
+BACKGROUND_PATH=Path(__file__).resolve().parent.parent/"Streamlit background4.png"
+with open("BACKGROUND_PATH","rb") as image_file:
      encoded_image=base64.b64encode(image_file.read()).decode()
 st.markdown(
     f"""

@@ -287,6 +287,9 @@ This application is intended for educational and demonstration purposes. Its pre
 - **MongoDB:** Database for food information.
 - **USDA FoodData Central:** Source of linked nutritional reference information.
 
+  ## Important note
+  The initially inserted data in the insert_data.py file had a mix up with the class names. In order to rectify it, I manually edited the class names present in MongoDB Atlas to ensure that the predictions do not go wrong and the information retrieval regarding nutrition of the predicted class
+
 ## Author
 **Shreyas Nitin**
 

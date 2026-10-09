@@ -61,6 +61,7 @@ Link to their paper: https://arxiv.org/abs/2405.11621
 
 ### 2. Food Classification Using Deep Learning: Presenting a New Food Segmentation Dataset
 **Authors:** Mehwash Farooqui, Atta-ur Rahman, Roaa Alorefan, Mariam Alqusser, Lubna Alzaid, Sara Alnajim, Amal Althobaiti and Mohammed Salid Ahmed.
+
 This paper investigates food classification using MobileNetV2 and presents a food segmentation dataset intended to support food quantity estimation. The authors report an optimal classification accuracy of 93.06%.
 
 **Relevance to this project:** Provides additional context on MobileNetV2-based food classification and the distinction between identifying food categories and estimating food quantities.
@@ -68,7 +69,7 @@ This paper investigates food classification using MobileNetV2 and presents a foo
 Link to their paper: https://www.iieta.org/journals/mmep/paper/10.18280/mmep.100336
 
 ## Technical report
-A detailed technical report detailing the model's architecture and the key decisions taken will be accompanying this. This is currently underworks and 
+A detailed technical report detailing the model's architecture and the key decisions taken will be accompanying this. This is currently being worked on and 
 would be linked as soon as its finished. 
 
 ## Project structure

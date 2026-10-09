@@ -203,7 +203,7 @@ These instructions are intended for users who want to run the application locall
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone The_Feast_of_Divine_Judgement
 cd Food11
 ```
 

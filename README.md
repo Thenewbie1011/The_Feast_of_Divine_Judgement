@@ -2,6 +2,7 @@
 An AI-powered food image classification application inspired by *Genshin Impact*. Built using TensorFlow, MobileNetV2, Open-CV, Streamlit and MongoDB, the application classifies food images into 11 categories and retrieves associated nutritional information. The Feast of Divine Judgement operates on
 the Food-11 dataset which is publically available. The version of the food-11 dataset used for The Feast of Divine Judgement can be accessed from here:
 https://www.kaggle.com/datasets/trolukovich/food11-image-dataset
+
 This version of the Food-11 dataset has already divided the data into train, validation and test sets. 
 ## Application preview
 ### The Archons' Verdict

@@ -70,8 +70,13 @@ A detailed technical report detailing the model's architecture and the key decis
 would be linked as soon as its finished. 
 
 ## Project structure
+## Project Structure
+
 ```text
 Food11/
+├── .streamlit/
+│   └── config.toml
+│
 ├── app/
 │   ├── pages/
 │   │   ├── About.py
@@ -144,7 +149,8 @@ Food11/
 ├── .gitignore
 ├── Food_11.zip
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── runtime.txt
 ```
 ## Model development
 The classification model uses transfer learning with MobileNetV2 pretrained on ImageNet.

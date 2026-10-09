@@ -1,0 +1,8 @@
+Food_11.zip
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+Existing literature/
+/Food11_Transfer_Learning_Project_Plan_Final.pdf
+/Baseline statistics

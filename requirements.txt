@@ -1,0 +1,10 @@
+tensorflow==2.21.0
+numpy
+pandas
+matplotlib
+opencv-python
+scikit-learn
+streamlit
+Pillow
+pymongo
+python-dotenv

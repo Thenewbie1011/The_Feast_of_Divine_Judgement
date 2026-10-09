@@ -1,0 +1,6 @@
+Food 11 dataset test statistics
+---------------------------------Test loss: 0.3316
+Test accuracy: 0.8990
+Test macro precision: 0.8955
+Test macro recall: 0.9185
+Test macro F1: 0.9043

@@ -1,0 +1,11 @@
+{
+    "hyperparameters": {
+        "learning_rate": 5e-05,
+        "l2_rate": 1e-05,
+        "fine_tune_layers": 100,
+        "epochs": 30,
+        "dropout_rate": 0.3,
+        "batch_size": 32
+    },
+    "validation_macro_f1": 0.9069815199844922
+}

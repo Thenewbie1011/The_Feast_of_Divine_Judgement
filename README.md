@@ -70,7 +70,6 @@ A detailed technical report detailing the model's architecture and the key decis
 would be linked as soon as its finished. 
 
 ## Project structure
-## Project Structure
 
 ```text
 Food11/
@@ -147,7 +146,6 @@ Food11/
 │
 ├── .env
 ├── .gitignore
-├── Food_11.zip
 ├── README.md
 ├── requirements.txt
 └── runtime.txt

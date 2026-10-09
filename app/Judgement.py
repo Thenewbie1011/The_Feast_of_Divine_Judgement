@@ -72,7 +72,7 @@ CLASS_NAMES=[
     "Soup",
     "Vegetable-Fruit"
 ]
-MODEL_PATH="../outputs/saved_model/food11_mobilenetv2.keras"
+MODEL_PATH=Path(__file__).resolve().parent.parent/"outputs"/"saved_model"/"food11_mobilenetv2.keras"
 model=tf.keras.models.load_model(MODEL_PATH)
 st.title("The Feast of Divine Judgment")
 with st.container(key="main_panel"):

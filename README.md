@@ -46,6 +46,8 @@ The model classifies images into 11 categories:
 9. Seafood
 10. Soup
 11. Vegetable-Fruit
+## Deployed Streamlit application
+The deployed Streamlit application can be found here: https://thefeastofdivinejudgement-gfpo9odxhaeej8garani6y.streamlit.app/
 ## Research papers and literature review
 The following research papers informed the study of food image classification, transfer learning, image preprocessing, data augmentation, and model selection for this project.
 ### 1. Computer Vision in the Food Industry: Accurate, Real-time, and Automatic Food Recognition with Pretrained MobileNetV2

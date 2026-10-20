@@ -71,8 +71,7 @@ This paper investigates food classification using MobileNetV2 and presents a foo
 Link to their paper: https://www.iieta.org/journals/mmep/paper/10.18280/mmep.100336
 
 ## Technical report
-A detailed technical report detailing the model's architecture and the key decisions taken will be accompanying this. This is currently being worked on and 
-would be linked as soon as its finished. 
+A detailed technical report detailing the model's architecture is present in the documents folder
 
 ## Project structure
 
@@ -80,6 +79,19 @@ would be linked as soon as its finished.
 Food11/
 ├── .streamlit/
 │   └── config.toml
+│
+├── Test_imgs/
+│   ├── Bread/
+│   ├── Dairy/
+│   ├── Dessert/
+│   ├── Egg/
+│   ├── Fried food/
+│   ├── Fruit-Vegetable/
+│   ├── Meat/
+│   ├── Pasta/
+│   ├── Rice/
+│   ├── Seafood/
+│   └── Soup/
 │
 ├── app/
 │   ├── pages/
@@ -99,6 +111,9 @@ Food11/
 │           ├── evaluation/
 │           ├── training/
 │           └── validation/
+│
+├── documents/
+│   └── The Feast of Divine Judgement.pdf
 │
 ├── outputs/
 │   ├── figures/
@@ -135,19 +150,6 @@ Food11/
 │   ├── preprocess.py
 │   ├── test.py
 │   └── train.py
-│
-├── Test_imgs/
-│   ├── Bread/
-│   ├── Dairy/
-│   ├── Dessert/
-│   ├── Egg/
-│   ├── Fried food/
-│   ├── Fruit-Vegetable/
-│   ├── Meat/
-│   ├── Pasta/
-│   ├── Rice/
-│   ├── Seafood/
-│   └── Soup/
 │
 ├── .env
 ├── .gitignore

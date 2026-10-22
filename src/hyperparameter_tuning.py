@@ -45,12 +45,6 @@ parameter_distributions={
 #Generating a list of parameter combinations
 parameter_combinations=list(ParameterSampler(parameter_distributions,n_iter=20,random_state=SEED))
 def evaluate_on_validation(model,validation_ds):
-    #y_true=[]
-    #y_pred=[]
-    #for images,labels in validation_ds:
-        #predictions=model(images,training=False)
-        #y_true.extend(labels.numpy())
-        #y_pred.extend(np.argmax(predictions.numpy(),axis=1))
     y_true=np.concatenate([labels.numpy() for _,labels in validation_ds])
     y_pred=np.argmax(model.predict(validation_ds,verbose=0),axis=1)
     return f1_score(y_true,y_pred,average="macro")

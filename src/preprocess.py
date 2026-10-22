@@ -32,8 +32,7 @@ def preprocess_img(image,training=False):
     '''VVIP - We ONLY augment the training dataset, NOT the validation or testing set'''
     if training:
         image=data_augmentation(image,training=True)
-    '''This is performing standardization. This scales the image's raw pixel values to fit the requirement specified by mobilenetv2.
-    This takes standard pixel values, ranging from [0,255] and scales them to [-1,1]'''
+    '''This code has been commented out as we perform the normalization in the model itself'''
     #image=tf.keras.applications.mobilenet_v2.preprocess_input(image)
     return image
 '''This is a very important function. We need to convert the dataframe into something that can be fed into the neural network. 
@@ -69,7 +68,8 @@ def make_dataset(df,batch_size,training=False):
     '''This is where everything comes together for this function. Before the load_image function, we had the path and the corresponding label. 
     The load_function reads the raw file bytes, converts them into an image tensor, applies preprocessing techniques (depending on the set) and
     returns the image along with the label. After mapping, we get a mapping between the image tensors and the label, so everything is numbers here
-    We also enable parallel processing for images in order to improve speed'''
+    We also decide to have 4 parellel processing calls for validation and tetsing and only 1 for training. This is to avoid OOM errors as encountered during pre
+    vious versions of the code'''
     dataset=dataset.map(load_image,num_parallel_calls=1 if training else 4,deterministic=True)
     #Groups individual items into batches of size 32
     dataset=dataset.batch(batch_size)
